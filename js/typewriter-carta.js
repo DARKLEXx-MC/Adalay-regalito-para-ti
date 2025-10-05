@@ -1,7 +1,7 @@
 // Efecto typewriter para carta.html
 document.addEventListener('DOMContentLoaded', () => {
     const mensajes = [
-        'Dale clic al sobre para abrir la carta!',
+        'Dale click al sobre para abrir la carta!',
         'No soy bueno para escribir, pero espero te guste ♥'
     ];
     
