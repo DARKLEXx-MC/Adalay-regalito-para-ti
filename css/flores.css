@@ -1153,11 +1153,15 @@ body {
 
 @media screen and (min-width: 1025px) {
     .mensajeee {
-        bottom: 150px;
+        bottom: 120px;
     }
 
     .mensajeee h1 {
         font-size: 12px;
+    }
+
+    .mensaje_flores {
+        bottom: 150px;
     }
 }
 
