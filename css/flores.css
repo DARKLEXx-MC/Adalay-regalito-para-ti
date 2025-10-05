@@ -1129,7 +1129,7 @@ body {
     }
 
     .mensaje_flores {
-        bottom: 50px;
+        bottom: 80px;
         max-width: 90dvw;
         overflow: hidden;
     }
@@ -1158,10 +1158,6 @@ body {
 
     .mensajeee h1 {
         font-size: 12px;
-    }
-
-    .mensaje_flores {
-        bottom: 150px;
     }
 }
 
