@@ -1162,7 +1162,7 @@ body {
 /* Dispositivos con pantallas 21:9 y 20:9 (como Motorola Edge Fusion, Poco F3) */
 @media screen and (max-width: 600px) and (min-aspect-ratio: 19/9) {
     .mensaje_flores {
-        margin-bottom: 220px;
+        margin-top: -220px;
         max-width: 85dvw;
         padding: 18px 20px;
     }
@@ -1185,7 +1185,7 @@ body {
 /* Dispositivos con pantallas ultra altas (> 21:9) */
 @media screen and (max-width: 600px) and (min-aspect-ratio: 21/9) {
     .mensaje_flores {
-        margin-bottom: 260px;
+        margin-top: -260px;
         max-width: 80dvw;
         padding: 20px 22px;
     }
