@@ -725,8 +725,6 @@ body {
     transform-origin: bottom left;
 }
 
-.long-g--0 { }
-
 .long-g--1 {
     bottom: 0vmin;
     transform: scale(0.8) rotate(-5deg);
@@ -1158,6 +1156,58 @@ body {
 
     .mensajeee h1 {
         font-size: 12px;
+    }
+}
+
+/* Dispositivos con pantallas 21:9 y 20:9 (como Motorola Edge Fusion, Poco F3) */
+@media screen and (max-width: 600px) and (min-aspect-ratio: 19/9) {
+    .mensaje_flores {
+        bottom: 120px !important;
+        max-width: 85dvw;
+        padding: 18px 20px;
+    }
+
+    .mensaje_flores h1 {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    .flowers {
+        margin-bottom: -15%;
+        transform: scale(0.95);
+    }
+
+    #lyrics {
+        margin-bottom: 600px;
+    }
+}
+
+/* Dispositivos con pantallas ultra altas (> 21:9) */
+@media screen and (max-width: 600px) and (min-aspect-ratio: 21/9) {
+    .mensaje_flores {
+        bottom: 150px !important;
+        max-width: 80dvw;
+        padding: 20px 22px;
+    }
+
+    .mensaje_flores h1 {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    .flowers {
+        margin-bottom: -10%;
+        transform: scale(0.9);
+    }
+
+    #lyrics {
+        margin-bottom: 650px;
+    }
+
+    .wrapper {
+        gap: 10px;
     }
 }
 
