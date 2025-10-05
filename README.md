@@ -5,7 +5,7 @@ Proyecto web interactivo para San Valentín con animaciones y efectos visuales.
 ## Estructura del Proyecto
 
 ```
-Valentines/
+Adalay/
 ├── index.html          # Página de inicio con nombre animado
 ├── carta.html          # Página con carta interactiva en sobre
 ├── flores.html         # Página con flores animadas
